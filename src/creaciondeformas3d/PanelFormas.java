@@ -32,9 +32,9 @@ public class PanelFormas extends javax.swing.JPanel {
         panelCentro.addTab("Prisma Hexagonal",new PanelForma3D(new PrismaHexagonal(0.4f,0.7f)));
         panelCentro.addTab("Sombrilla",new PanelForma3D(new Sombrilla(7, 0.7f)));
         panelCentro.addTab("Octaedro",new PanelForma3D(new Octaedro(0.4f)));
-        panelCentro.addTab("Poliedro",new PanelForma3D(new Poliedro(0.4f,0.8f,0.3f)));
+        panelCentro.addTab("Poliedro", new PanelForma3D(new Poliedro(0.3f,0.3f,0.3f)));
         panelCentro.addTab("Dodecaedro",new PanelForma3D(new Dodecaedro(0.4f)));
-        panelCentro.addTab("Anillos",new PanelForma3D(new Anillos3D(0.5f,0.3f,0.3f)));
+        panelCentro.addTab("Anillos", new PanelForma3D(new Anillos3D(0.3f,0.5f,0.3f)));
     
     }
 
